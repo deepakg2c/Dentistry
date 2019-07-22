@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical"
+    android:background="@android:color/holo_blue_bright"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/rl1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv1"
+                style="@style/login_title_text_style"
+                android:layout_marginTop="15dp"
+                android:text="@string/medical_history" />
+            <LinearLayout
+                android:id="@+id/ll2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                tools:ignore="DisableBaselineAlignment,UselessLeaf,UselessParent">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/username_layout"
+                    style="@style/login_text_input_layout_style"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:imeOptions="actionNext">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/patient_name_field"
+                        style="@style/login_text_input_field_style"
+                        android:text=""
+                        android:hint="@string/patient_name" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <RelativeLayout
+
+                    android:id="@+id/dob_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    tools:ignore="UselessLeaf">
+
+                    <TextView
+                        android:id="@+id/dob_text"
+                        style="@style/registration_dob_field_style"
+                        android:layout_height="50dp"
+                        android:text="02/02/1986" />
+
+                    <TextView
+                        android:visibility="gone"
+                        style="@style/registration_dob_suffix_text_style"
+                        android:layout_height="50dp" />
+
+                    <View
+                        style="@style/registration_dob_underline_text_style"
+                        android:layout_width="match_parent"
+                        android:layout_below="@id/dob_text"
+                        android:layout_marginTop="-10dp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <TextView
+                android:layout_below="@+id/ll2"
+                android:id="@+id/medical_history_description_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rectangle_transparent_background"
+                android:padding="10dp"
+                android:text="medical_history_form_description"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_below="@+id/medical_history_description_text"
+                android:id="@+id/header1"
+                style="@style/medical_history_questions_text_style"
+                android:text="@string/responsive_questions" />
+            <ListView
+                android:layout_marginTop="5dp"
+                android:id="@+id/optional_question_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ListView>
+            <TextView
+                android:id="@+id/header2"
+                style="@style/medical_history_questions_text_style"
+                android:text="Women" />
+
+            <ListView
+                android:id="@+id/women_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ListView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="patient_authorization_check_box_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:buttonTint">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/appointmentTitleTextColor</item>
+    </style>
+
+    <style name="datePickerDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:datePickerMode">spinner</item>
+        <item name="colorAccent">@color/loginButtonColor</item>
+    </style>
+</resources>

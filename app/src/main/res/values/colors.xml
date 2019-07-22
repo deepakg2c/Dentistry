@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+<color name="colorPrimary">#3F51B5</color>
+<color name="colorPrimaryDark">#008ACB</color>
+<color name="colorAccent">@android:color/white</color>
+<color name="loginButtonColor" tools:ignore="MissingDefaultResource">#008ACB</color>
+<color name="titleTextColor">#B4B3B3</color>
+<color name="appointmentTitleTextColor">#A1A0A0</color>
+<color name="buttonBackgroundColor">#8080ff</color>
+<color name="financialPolicyTitleColor">#808080</color>
+</resources>

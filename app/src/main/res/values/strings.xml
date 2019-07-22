@@ -1,0 +1,261 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Dentistry</string>
+
+    <!--Login Page-->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="err_username">Please enter username</string>
+    <string name="err_password">Please enter password</string>
+    <string name="welcome_message">Welcome back to the Dentistry</string>
+    <string name="Thank_you_message">Thank you for your registration to the Dentistry</string>
+
+    <!--Home Page-->
+    <string name="home_description">Welcome to the Dentistry,\nClick on the button below to continue</string>
+    <string name="new_user">New User</string>
+    <string name="existing_user">Existing User</string>
+
+    <!--Appointment Schedule-->
+    <string name="appointment_schedule">Appointment Schedule</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="back">Back</string>
+    <string name="appointment_description">Please click on your name to check in</string>
+    <string name="next">Next</string>
+    <string name="dob">DOB</string>
+    <string name="dob_format">mm-dd-yyyy</string>
+    <string name="dob_value">%1$s-%2$s-%3$d</string>
+    <string name="err_name">Please enter the Name</string>
+    <string name="err_dob">Please enter DOB</string>
+
+    <!--Medical History-->
+    <string name="patient_name">Patient Name</string>
+    <string name="name">John Smith</string>
+    <string name="birth_date">Birth Date</string>
+    <string name="responsive_questions">Please mark your responses:</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="comments">Comments</string>
+    <string name="question">%1$d.%2$s</string>
+    <string name="allergic_questions">Are you allergic to any of the following?</string>
+    <string name="diseases_questions">Do you have, or have you had any of the following?</string>
+    <string name="medical_description">To the best of my knowledge, the questions on his form have
+        been accurately answered.  I understand that providing incorrect information can be dangerous
+        to my (or patient’s) health.It is my responsibility to inform the dental office of any changes
+        in medical status.
+    </string>
+    <string name="signature">Signature of Patient, Parent, or Guardian(Above)</string>
+
+    <!--Check In Activity-->
+    <string name="check_in_message">Thank you for checking in.Your hygenist Dr. John will be seeing you shortly.\n
+        Please proceed to the front desk.</string>
+    <string name="registration_confirm">Thank you for checking in.\n
+        Your hygenist Dr. John will be seeing \n
+        you shortly. Please proceed to the front desk.</string>
+    <string name="register_success_message">"Thank you for registering with The Dentistry. \n       Please proceed to the front desk. "</string>
+    <string name="check_success_message">Check-in Successful!</string>
+    <string name="registration_success_message">Registration Successful!</string>
+    <string name="continues">Continue</string>
+    <string name="check_in">Check In</string>
+    <string name="appointment_warning">We don\'t  find   an \n
+        appointment for you. Please proceed \n
+         to the front desk for further   assistance.</string>
+    <string name="registered_warning">You don\'t seem to be a \n
+        registered patient. Please proceed  \n
+        to the front desk to register  yourself.</string>
+    <string name="medical_history_form_description">Although dental personnel primarily treat the
+        area in and around your mouth, your mouth is a part of your entire body. Health problems
+        that you may have, or medication that you may be taking, could have an important
+        interrelationship with the dentistry you will receive. Thank you for answering the
+        following questions.
+    </string>
+
+    <!--Registration Page-->
+    <string name="patient_registration_form">Patient Registration Form</string>
+    <string name="address">Address</string>
+    <string name="phone_cell">Phone: Cell</string>
+    <string name="phone_home">Phone: Home</string>
+    <string name="email">Email</string>
+    <string name="err_address">Please enter a address</string>
+    <string name="err_mobile">Please enter a mobile number</string>
+    <string name="err_land_line">Please enter a land-line number</string>
+    <string name="err_email">Please enter a email</string>
+    <string name="submit">Submit</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="dental_insurance_message">Do you have Dental Insurance?</string>
+    <string name="yes_do">Yes,do</string>
+    <string name="no_i_don_t">No I don\'t</string>
+
+    <!--Insurance Form Page-->
+    <string name="insurance_information_form">Insurance Information Form</string>
+    <string name="employee_name">Employee Name</string>
+    <string name="ssn_of_card_holder">SSN of Card holder</string>
+    <string name="insurance_company">Insurance Company</string>
+    <string name="group_id_optional">Group ID(optional)</string>
+    <string name="member_id">Member ID</string>
+    <string name="company_phone_no">Company Phone Number</string>
+    <string name="err_employee_name">Please enter a employee name</string>
+    <string name="err_ssn_card_holder">Please enter a SSN card holder</string>
+    <string name="err_insurance_company">Please enter a insurance company</string>
+    <string name="err_member_id">Please enter a member ID</string>
+    <string name="err_company_phone">Please enter company phone number</string>
+
+    <!--PatientResponse Authorization Fragment-->
+    <string name="patient_authorization_welcome">Welcome!! We are updating our records and would appreciate your help with the following information. Thank You!</string>
+    <string name="home_phone">Home Phone</string>
+    <string name="work_phone">Work Phone</string>
+    <string name="mobile_phone">Mobile Phone</string>
+    <string name="primary_insurance_company">Primary Insurance Company</string>
+    <string name="insured_s_name">Insured’s Name</string>
+    <string name="ss">SS#</string>
+    <string name="employer_s_name">Employer’s Name</string>
+    <string name="secondary_insurance_company">Secondary Insurance Company</string>
+    <string name="authorization">Authorization</string>
+    <string name="authorization_description">I hereby assign benefits to THE DENTISTRY for any
+        insurance I may have in effect.I hereby authorize THE DENTISTRY to administer such medical
+        and perform such diagnostic and therapeutic procedure as may be necessary for proper dental
+        care. I affirm that the information I have given is correct to the best of my knowledge,
+        and that is my responsibility to inform this office of any changes in my medical status.
+        I have received and read a copy of this office’s Notice of Privacy Practice. I understand
+        that I am responsible for all charges for my dental treatment. I understand that if I am
+        behind in making payments, THE DENTISTRY may: (1) hire an attorney to collect the money,
+        AND (2) charge me for the attorney’s fees, court costs, services or processing costs, and
+        all other expenses that are associated with the collection of the money from me.
+    </string>
+    <string name="responsible_signature">Signature of Patient or Responsible Party</string>
+    <string name="signature_staff">Signature of The Dentistry Staff</string>
+    <string name="err_insured_name">Please enter the insured name</string>
+    <string name="err_ss">Please enter a SS#</string>
+    <string name="err_employer_name">Please enter a employer name</string>
+    <string name="err_company_name">Please enter a company name</string>
+    <string name="err_preferred_method">Please select any preferred method to contact</string>
+    <string name="err_responsible_person">Please sign a responsible person</string>
+    <string name="err_staff_person">Please sign a staff person</string>
+
+    <!--PatientResponse Permission Form-->
+    <string name="patient_or_guardian_signature">(Patient or Guardian Signature)</string>
+    <string name="patient_permission"><![CDATA[<em>I <strong>%1$s</strong> give The Dentistry permission to
+        speak with <b>%2$s</b> regarding any of my financial information or treatment.</em>]]>
+    </string>
+    <string name="err_patient_name">Please enter a patient name</string>
+    <string name="err_family">Please enter any family member details</string>
+    <string name="err_date">Please enter current date</string>
+    <string name="err_guardian_sign">Guardian sign is required</string>
+
+    <!--Financial Policy Fragment-->
+    <string name="financial_description_one">We appreciate the opportunity to serve you! We’ve found
+        that a clear understanding of our financial policy in advance of dental care helps to relieve
+        some of the anxiety associated with dental visits. Please read the following carefully and ask
+        us any questions you might have. We will do our best to answer them for you.
+    </string>
+    <string name="financial_policy_description_two">This is an agreement between John E. Tiano DDS,
+        as creditor, and the Patient/Debtor named on this form. By executing this agreement, you
+        consent to treatment by John E. Tiano DDS and his staff and agree to pay for all services
+        that are received. Once you have signed this agreement, you agree to all the terms and
+        conditions contained herein and the agreement will be in full force and effect.
+    </string>
+    <string name="responsible_party">Responsible Party(if patient under 18 years old)</string>
+    <string name="financial_description_three">In this agreement the words “you”, “your”, and “yours”
+        mean the Patient/Debtor. The word “account” means the account that has been established in
+        your name to which charges are made and payments credited. The words “we”, “us”, and “our”
+        refer to John E. Tiano, DDS PC and Associates.
+    </string>
+    <string name="initial">Initial</string>
+
+    <!--Cancellation Fragment-->
+    <string name="cancellation_title">A Word about Missed Appointments:</string>
+    <string name="cancellation_description">The nature of our practice is to give our patients
+     the utmost in dental care and service in a sterile and professional environment.  We make every
+     attempt to see you at your reserved appointment time.  However, since we are sometimes
+     faced with emergencies during the day we may run behind schedule. This happens only on occasion
+     so please excuse any delays.  We promise to give you the same careful attention and dedicated time.
+        \n\nIn fairness to others and to enable us to efficiently plan the days schedule, it
+        is necessary that you give us sufficient prior notification if you need to reschedule your
+        dedicated appointment time.  In the light of this we have established the following protocol:
+    </string>
+    <string name="cancellation_amount" tools:ignore="ExtraTranslation">There will be a $30.00 charge for any missed or cancelled
+        hygiene/check-up appointment unless we have been given a 48 hour prior notice.
+    </string>
+    <string name="appointment_cancellation_two">We thank you for helping our office run as
+    smoothly and efficiently as possible for all patients, and by arriving for your dedicated appointment on time.</string>
+    <string name="appointment_cancellation_signature">Your signature affirms that you have read the above protocol.</string>
+    <string name="save">Save</string>
+    <string name="err_cancellation_signature">Signature is required</string>
+    <string name="patient_details">Patient Details</string>
+    <string name="save_success">Your details saved</string>
+    <string name="cancel_confirmation">Did you save the details?</string>
+    <string name="discard">Discard</string>
+    <string name="medical_history">Medical History</string>
+    <string name="permission_to_speak">Permission To Speak</string>
+    <string name="financial_policy">Financial Policy</string>
+    <string name="cancellation_policy">Cancellation Policy</string>
+    <string name="insurance_pic_message">Take Picture Of Insurance Card (Front and Back)</string>
+
+    <string-array name="insurance_names">
+        <item>Metlife</item>
+        <item>Blue Cross Dental Insurance</item>
+        <item>Aetna</item>
+        <item>United Concordia</item>
+        <item>Guardian</item>
+        <item>Cigna</item>
+        <item>Delta Dental of California </item>
+    </string-array>
+
+
+    <!--Notice Privacy Fragment-->
+    <string name="privacy_description_one">We use and disclose health information about you for treatment, payment, and healthcare operations.
+    </string>
+    <string name="privacy_description_two">If you want more information about our privacy practices or have questions or concerns,please contact us.
+        If you are concerned that we may have violated your privacy rights, or you disagree with a decision we made about access to your health information or in response to a request you made to amend or restrict the use or disclosure of your health information or to have us communicate with you by alternative means or at alternative locations,you may complain to us using the contact information listed at the end of this Notice.
+        You also may submit a written complaint to the U.S. Department of Health and Human Services.We will provide you with the address to file your complaint with the U.S. Department of Health and Human Services upon request.
+        We support your right to the privacy of your health information.  We will not retaliate in any way if you choose to file a complaint with us with the U.S. Department of Health and Human Services.
+        A Privacy/Contact Officer has been designated for this office.  Please ask our front desk personnel and they will direct you to the Privacy/Contact Officer.
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="middle_name">Middle Name</string>
+    <string name="salutaion">Salutaion</string>
+    <string name="pref_name">Pref. Name</string>
+    <string name="gender">Gender</string>
+    <string name="martialstatus">Marital Status</string>
+    <string name="cell_phone">Cell Phone</string>
+    <string name="ext_phone">Ext</string>
+    <string name="address_two">Address Line 2</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="pin">Zip Code</string>
+    <string name="address_one">Address Line 1</string>
+    <string name="this_is_for">This is for</string>
+
+
+    <string name="salutaion_prompt"> Select Salutation</string>
+    <string-array name="salutaion_arrays">
+        <item>MR</item>
+        <item>MRS</item>
+        <item>MISS</item>
+        <item>DR</item>
+    </string-array>
+
+    <string name="title_activity_insurance">Insurance</string>
+    <string name="policy_holder_name">Policy Holder Name</string>
+    <string name="relationship">Relationship</string>
+
+    <string name="relationship_prompt"> Select Relationship</string>
+    <string name="employers_name">Employeer</string>
+    <string name="rem_benifits">REM Benifits</string>
+    <string name="rem_deducts">REM Deducts</string>
+    <string name="supplimental_insurance_company">Supplimental Insurance Company</string>
+    <string name="driverlicense">Driver License</string>
+    <string-array name="relationship_arrays">
+        <item>Self</item>
+        <item>Spouse</item>
+        <item>Child</item>
+        <item>Other</item>
+    </string-array>
+
+
+</resources>

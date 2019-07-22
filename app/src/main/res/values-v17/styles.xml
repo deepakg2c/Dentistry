@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="patient_authorization_check_box_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:buttonTint" tools:ignore="NewApi">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/appointmentTitleTextColor</item>
+    </style>
+
+    <style name="datePickerDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:datePickerMode" tools:targetApi="lollipop">spinner</item>
+        <item name="colorAccent">@color/loginButtonColor</item>
+    </style>
+
+    <style name="medical_history_form_button_layout_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginEnd" tools:targetApi="jelly_bean_mr1">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+</resources>
